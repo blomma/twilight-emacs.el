@@ -44,7 +44,7 @@
 ;; is based.
 ;;
 ;;; Code
-(deftheme zenburn "The Zenburn color theme")
+(deftheme twilight "The twilight color theme blomma style")
 
 (let ((class '((class color) (min-colors 89)))
       ;; Zenburn palette
@@ -83,7 +83,7 @@
       (zenburn-blue-5 "#366060")
       (zenburn-magenta "#dc8cc3"))
   (custom-theme-set-faces
-   'zenburn
+   'twilight
    '(button ((t (:underline t))))
    `(link ((,class (:foreground ,zenburn-yellow :underline t :weight bold))))
    `(link-visited ((,class (:foreground ,zenburn-yellow-2 :underline t :weight normal))))
@@ -504,7 +504,7 @@
 
   ;;; custom theme variables
   (custom-theme-set-variables
-   'zenburn
+   'twilight
 
    ;; fill-column-indicator
    `(fci-rule-color ,zenburn-bg-05)))
@@ -514,10 +514,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'zenburn)
+(provide-theme 'twilight)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; zenburn-theme.el ends here.
+;;; twilight-theme.el ends here.
