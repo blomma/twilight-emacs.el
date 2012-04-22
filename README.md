@@ -1,8 +1,4 @@
-# About
-
-# Installation
-
-## Emacs 24
+### Emacs 24
 
 Download `twlight-theme.el` to the directory `~/.emacs.d/themes/`. Add this to your
 `.emacs`:
@@ -11,7 +7,7 @@ Download `twlight-theme.el` to the directory `~/.emacs.d/themes/`. Add this to y
 
 Now you can load the theme with the interactive function `load-theme`.
 
-# Bugs & Improvements
+### Bugs & Improvements
 
 Please, report any problems that you find on the projects integrated
 issue tracker. If you've added some improvements and you want them
